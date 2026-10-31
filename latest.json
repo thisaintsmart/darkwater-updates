@@ -1,0 +1,8 @@
+{
+  "version": "1.0.1",
+  "notes": "Initial update feed is configured. No new update has been released yet.",
+  "details": [
+    "Update feed initialized for Darkwater 1.0.1.",
+    "A future version will provide a download package and its SHA-256 checksum."
+  ]
+}

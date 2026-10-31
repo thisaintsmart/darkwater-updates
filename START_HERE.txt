@@ -1,0 +1,17 @@
+DARKWATER: GITHUB UPDATES STARTER
+
+1. Create a PUBLIC GitHub repo named darkwater-updates, with a README, at https://github.com/new
+2. Add files index.html and latest.json from this folder to the ROOT of the repo (Add file > Upload files > Commit changes).
+   Do not upload START_HERE.txt if you do not want to.
+3. Settings > Pages > Source: Deploy from a branch > Branch main > Folder /(root) > Save.
+4. After Pages publishes, open:
+   https://YOUR_GITHUB_USERNAME.github.io/darkwater-updates/latest.json
+5. In the exported Darkwater updater menu, select Set Up Darkwater Updates and enter this URL.
+   If you do not see setup, edit the project.godot configuration before exporting:
+   [darkwater_updates]
+   manifest_url="https://YOUR_GITHUB_USERNAME.github.io/darkwater-updates/latest.json"
+6. The included manifest reports version 1.0.1 as current. It is NOT a real update release.
+7. When releasing version 1.0.2, first build PCK/ZIP and manifest using the updates/BUILD_AND_PACKAGE_WINDOWS.ps1 script from the Godot game source.
+8. Create a release tag v1.0.2 and upload the generated ZIP as a release asset BEFORE you replace latest.json with the generated manifest.
+
+Do not upload Darkwater God Mode passwords, personal files, or private source code.
