@@ -1,8 +1,14 @@
 {
-  "version": "1.0.1",
-  "notes": "Initial update feed is configured. No new update has been released yet.",
-  "details": [
-    "Update feed initialized for Darkwater 1.0.1.",
-    "A future version will provide a download package and its SHA-256 checksum."
-  ]
+    "version":  "1.0.4",
+    "url":  "https://github.com/thisaintsmart/darkwater-updates/releases/download/v1.0.4/Darkwater_update_1.0.4.zip",
+    "sha256":  "732418fc62cbb787178fecc367c3784ff4baefb94c322080db9d6fe72e0bb117",
+    "package_type":  "pck",
+    "notes":  "Persistent characters, Dark Helm, and Obsidian Storm Tiger quest.",
+    "details":  [
+                    "Password-protected characters restore saved skills, XP, position, inventory and equipped items.",
+                    "Host saves player progress periodically and at disconnect; bank records persist.",
+                    "Dark Helm is Very Rare and drops from monsters rather than being sold.",
+                    "Obsidian Storm Tiger is awarded from Lyra Stormwarden quest, not the shop.",
+                    "Requires the multiplayer host and players to use compatible v1.0.4 files."
+                ]
 }
